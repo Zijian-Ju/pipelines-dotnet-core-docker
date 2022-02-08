@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'b79cbd73-4ca4-4ad8-886f-879cc28e689f'
   imageRepository: 'zijianjupipelinesdotnetcoredocker'
   containerRegistry: 'zijianju.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
